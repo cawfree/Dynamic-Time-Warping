@@ -161,8 +161,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private static final String TAG = "@Cawfree";
 
     /* Chart Constants. */
-    private static final int    LENGTH_CHART_HISTORY  = 128;
-    private static final int    AVERAGE_WINDOW_LENGTH = 5;
+    private static final int    LENGTH_CHART_HISTORY  = 64;
+    private static final int    AVERAGE_WINDOW_LENGTH = 1;
     private static final int    DELAY_SENSOR          = SensorManager.SENSOR_DELAY_FASTEST;
 
     /* Member Variables. */
@@ -274,7 +274,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         // Color the DataSets.
         MainActivity.color(this.getAcceleration(), new int[]{ Color.RED,  Color.GREEN,   Color.BLUE });
         MainActivity.color(this.getTraining(),     new int[]{ Color.RED,  Color.GREEN,   Color.BLUE });
-        MainActivity.color(this.getRecognition(),  new int[]{ Color.CYAN, Color.MAGENTA, Color.BLACK });
+        MainActivity.color(this.getRecognition(),  new int[]{ Color.RED,  Color.GREEN,   Color.BLUE });
 
         // Declare the LineChartManager.
         this.mAccChartManager         = new LineChartManager(this.getLineAcc(),         MainActivity.AVERAGE_WINDOW_LENGTH, this.getAcceleration());
