@@ -1,2 +1,2 @@
-# Dynamic-Time-Warping
-An Android Application that Demonstrates the Dynamic Time Warping Algorithm.
+# AndroidGeeExample
+An example demonstrating accelerometer gesture recognition using WiiGee.
