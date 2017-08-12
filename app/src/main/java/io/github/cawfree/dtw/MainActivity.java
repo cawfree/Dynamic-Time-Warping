@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private static final Description DESCRIPTION_NULL = new Description() { { this.setText(""); }};
 
     /* Tag Declaration. */
-    private static final String TAG = "AndroidGeeExample";
+    private static final String TAG = "@Cawfree";
 
     /* Chart Constants. */
     private static final int    LENGTH_CHART_HISTORY  = 64;
